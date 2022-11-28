@@ -15,6 +15,7 @@ export const ContainerTemplate = styled.div`
     justify-content:center;
     flex-direction:column;
     padding:60px 40px 60px 40px;
+    gap:10px;
 `
 
 export const ContainerTemplateContent = styled.div`

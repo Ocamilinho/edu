@@ -13,8 +13,6 @@ import {
 function FaqPage() {
   return (
     <div>
-      <Header linkName="FAQ" />
-      <NavBar />
       <ContainerTemplateContent>
         <div>
           <TitleTemplate>Faça Parte de Algo Maior</TitleTemplate>

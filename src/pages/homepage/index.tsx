@@ -12,8 +12,6 @@ import {
 export default function Home() {
   return (
     <div>
-      <Header linkName="Home"/>
-      <NavBar />
       <ContainerTemplate>
         <ContainerSideTemplate>
           <div>

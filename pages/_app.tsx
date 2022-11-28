@@ -3,6 +3,8 @@ import { ThemeProvider, DefaultTheme } from 'styled-components'
 import { GlobalStyle } from '../styles/globalstyles'
 import { theme } from '../styles/theme'
 import "../styles/global.css"
+import Header from '../src/components/templates/header'
+import NavBar from '../src/components/templates/NavBar'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -12,6 +14,8 @@ export default function App({ Component, pageProps }: AppProps) {
     </style>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
+        <Header/>
+        <NavBar/>
         <Component {...pageProps} />
       </ThemeProvider>
     </>
