@@ -14,7 +14,7 @@ export const ContainerTemplate = styled.div`
     align-items: center ;
     justify-content:center;
     flex-direction:column;
-    padding:60px 40px;
+    padding:60px 40px 60px 40px;
 `
 
 export const TitleTemplate = styled.h1`
@@ -31,9 +31,9 @@ export const ContainerSideTemplate = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top:30px;
+    justify-content: center;
     width: 80vw;
-    gap: 5px;
-
+    padding: 0px;
+    gap: 30px;
     
 `

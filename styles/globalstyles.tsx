@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap');
   :root{
     --branco:#F4F4F4;
     --preto:#050505;
@@ -10,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     --azulescuro: #032B43;
     --azul: #3F88C5;
     --bgcfundo: #1d1d1d;
+    --fundocard: #333333;
   }
   html,
   body {

@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "../../components/molecules/Card";
 import Header from "../../components/templates/header";
 import NavBar from "../../components/templates/NavBar";
 import {
@@ -29,9 +30,21 @@ export default function Home() {
           </div>
         </ContainerSideTemplate>
       </ContainerTemplate>
-
       <ContainerTemplate>
-        
+        <ContainerSideTemplate>
+          <Card title="1- Exemplo">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            tempora unde.
+          </Card>
+          <Card title="2-Exemplo">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            tempora unde.
+          </Card>
+          <Card title="3- Exemplo">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            tempora unde.
+          </Card>
+        </ContainerSideTemplate>
       </ContainerTemplate>
     </div>
   );

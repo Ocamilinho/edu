@@ -5,6 +5,7 @@ export const HeaderNav = styled.div`
     align-items: center;
     justify-content: space-between;
     padding:10px;
+    margin-bottom: 30px;
     box-shadow: 5px 10px 20px #333333;
     background-color: #333333;
     z-index: 2;
