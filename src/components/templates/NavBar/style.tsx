@@ -6,6 +6,7 @@ export const NavBarHover = styled.div`
     align-items: center;
     justify-content: center;
     position: fixed;
+    transform: translateX(-150px);
     top: 30vh;
     left:0;
 `

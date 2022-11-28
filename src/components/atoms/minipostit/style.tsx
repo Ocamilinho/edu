@@ -8,13 +8,12 @@ export const FundoPostIt = styled.div`
     height: 50px;
     padding: 20px;
     font-family: 'Space Grotesk';
-    translate: -150px;
     border-radius: 5px;
     transition: .6s;
     background-color: var(--fundocard);
     &:hover,
   &:focus{
-    translate: 0;
+    translate: +150px;
   }
 `
 
