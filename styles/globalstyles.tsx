@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   :root{
@@ -10,6 +10,17 @@ export const GlobalStyle = createGlobalStyle`
     --azul: #3F88C5;
     --bgcfundo: #1d1d1d;
     --fundocard: #333333;
+  }
+    body::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+    
+  body::-webkit-scrollbar-track {
+    background: var(--fundocard);        /* color of the tracking area */
+  }
+    
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--vermelho); 
   }
   html,
   body {
@@ -29,4 +40,4 @@ export const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
-`
+`;

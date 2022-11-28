@@ -2,7 +2,7 @@ import React, { Children } from 'react'
 import { TextTemplate, TitleTemplate } from '../../templates/stylesTemplates'
 import { Divcard } from './style'
 
-function Card(props, {Children}) {
+function Card(props) {
   return (
     <Divcard>
             <TitleTemplate>{props.title}</TitleTemplate>

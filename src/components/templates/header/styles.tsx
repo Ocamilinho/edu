@@ -11,4 +11,10 @@ export const HeaderNav = styled.div`
     z-index: 2;
 `
 
+export const HeaderNavCont = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 5px;
+`
+
 

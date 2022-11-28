@@ -12,7 +12,7 @@ import {
 export default function Home() {
   return (
     <div>
-      <Header />
+      <Header linkName="Home"/>
       <NavBar />
       <ContainerTemplate>
         <ContainerSideTemplate>

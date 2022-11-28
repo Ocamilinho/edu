@@ -1,14 +1,18 @@
-import React from 'react'
-import { ButtonNavTemplate } from '../stylesTemplates'
-import { HeaderNav } from './styles'
+import React from "react";
+import { ButtonNavTemplate, TitleTemplate } from "../stylesTemplates";
+import { HeaderNav, HeaderNavCont } from "./styles";
 
-function Header() {
-    return (
-        <HeaderNav>
-            <img src="/logo-3k.png" alt="" />
-            <ButtonNavTemplate>Contato</ButtonNavTemplate>
-        </HeaderNav>
-    )
+function Header(props) {
+  return (
+    <HeaderNav>
+      <HeaderNavCont>
+        <img src="/logo-3k.png" alt="" />
+        <TitleTemplate>{props.linkName}</TitleTemplate>
+      </HeaderNavCont>
+
+      <ButtonNavTemplate>Contato</ButtonNavTemplate>
+    </HeaderNav>
+  );
 }
 
-export default Header
+export default Header;

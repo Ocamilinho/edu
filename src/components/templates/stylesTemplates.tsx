@@ -17,6 +17,15 @@ export const ContainerTemplate = styled.div`
     padding:60px 40px 60px 40px;
 `
 
+export const ContainerTemplateContent = styled.div`
+    display:flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction:column;
+    padding:70px 100px;
+    gap:20px;
+`
+
 export const TitleTemplate = styled.h1`
     font-size: 27px;
     font-weight: 500;

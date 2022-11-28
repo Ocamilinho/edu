@@ -11,7 +11,7 @@ export const FundoPostIt = styled.div`
     translate: -150px;
     border-radius: 5px;
     transition: .6s;
-    background-color: var(--azul);
+    background-color: var(--fundocard);
     &:hover,
   &:focus{
     translate: 0;
