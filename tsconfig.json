@@ -15,6 +15,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/atoms/CircleSubject/style.jsx", "src/components/atoms/minipostit/index.jsx", "src/components/atoms/minipostit/style.jsx", "src/components/atoms/minipostit/style.js"],
   "exclude": ["node_modules"]
 }

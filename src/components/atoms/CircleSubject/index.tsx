@@ -5,7 +5,7 @@ import { Circleedusub, Flex } from './style'
 function CircleSubject(props) {
   return (
     <Flex>
-        <Circleedusub/>
+        <Circleedusub>{props.number}</Circleedusub>
         <TitleTemplate>{props.title}</TitleTemplate>
     </Flex>
   )

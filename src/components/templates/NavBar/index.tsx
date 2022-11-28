@@ -6,8 +6,8 @@ function NavBar() {
   return (
     <NavBarHover>
         <OptsNav>
-            <MiniPostIt name="Home" abrevi="H" link="/" color="red"/>
-            <MiniPostIt name="Matérias" abrevi="M" link="/subjects"/>
+            <MiniPostIt name="Home" abrevi="H" link="/" color="green" time="6"/>
+            <MiniPostIt name="Matérias" abrevi="M" link="/subjects" Color="var(--preto)"/>
             <MiniPostIt name="Atividades" abrevi="A" link="/atividades"/>
             <MiniPostIt name="Contribua" abrevi="C" link="/FAQ"/>
         </OptsNav>

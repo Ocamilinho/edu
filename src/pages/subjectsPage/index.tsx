@@ -12,16 +12,16 @@ function SubjectPage() {
           <ContainerTemplate>
             <TitleTemplate>Minimalistas</TitleTemplate>
             <ListCircle>
-              <CircleSubject title="Ciências"/>
-              <CircleSubject title="História"/>
-              <CircleSubject title="Geografia"/>
+              <CircleSubject title="Ciências" number="1" color="red"/>
+              <CircleSubject title="História" number="2"/>
+              <CircleSubject title="Geografia" number="3"/>
             </ListCircle>
           </ContainerTemplate>
           <ContainerTemplate>
             <TitleTemplate>Aprofundados</TitleTemplate>
             <ListCircle>
-              <CircleSubject title="Matematica"/>
-              <CircleSubject title="Português"/>
+              <CircleSubject title="Matematica" number="1"/>
+              <CircleSubject title="Português" number="2"/>
             </ListCircle>
           </ContainerTemplate>
           <ContainerTemplate>
