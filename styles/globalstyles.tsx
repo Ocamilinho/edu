@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap');
   :root{
     --branco:#F4F4F4;
     --preto:#050505;
@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     --amarelo: #FABA08;
     --azulescuro: #032B43;
     --azul: #3F88C5;
+    --bgcfundo: #1d1d1d;
   }
   html,
   body {
@@ -17,6 +18,7 @@ export const GlobalStyle = createGlobalStyle`
     color: white;
     font-family: 'Space Grotesk',-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: var(--bgcfundo);
   }
 
   a {
