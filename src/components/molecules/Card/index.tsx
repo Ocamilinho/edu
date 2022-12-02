@@ -4,7 +4,7 @@ import { Divcard } from './style'
 
 function Card(props) {
   return (
-    <Divcard>
+    <Divcard color={props.color}>
             <TitleTemplate>{props.title}</TitleTemplate>
             <TextTemplate>
               {props.children}

@@ -7,7 +7,7 @@ export const Divcard = styled.div`
     gap:10px;
     padding: 30px;
     background-color: var(--fundocard);
-    box-shadow: 8px 8px 0px var(--vermelho);
+    box-shadow: 8px 8px 0px ${(props) => `${props.color}`};
     width: 300px;
     height: 317px;
     border-radius: 10px;

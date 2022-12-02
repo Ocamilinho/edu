@@ -8,7 +8,7 @@ export const Circleedusub = styled.span`
    justify-content: center;
    font-size: 1.5rem;
    border-radius: 100px;
-   background-color: var(--fundocard);
+   background-color: ${(props) => `${props.color}`};
 `
 
 export const Flex = styled.div`

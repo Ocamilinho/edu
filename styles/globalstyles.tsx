@@ -10,6 +10,18 @@ export const GlobalStyle = createGlobalStyle`
     --azul: #3F88C5;
     --bgcfundo: #1d1d1d;
     --fundocard: #333333;
+
+    --vermelhonav: #C50311;
+    --amarelonav: #DE9627;
+    --azulnav:#006B9B;
+    --azulnav2: #002B42;
+
+    --verdesub: #008722;
+    --marromsub: #964F13;
+    --amarelosub: #8E821B;
+    --vermelhosub: #A0020C;
+    --azulsub: #005F85;
+
   }
     body::-webkit-scrollbar {
     width: 5px;               /* width of the entire scrollbar */

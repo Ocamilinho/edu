@@ -9,6 +9,7 @@
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
     "styled-components": "^5.3.5",
     "tailwind-styled-components": "^2.2.0"
   },

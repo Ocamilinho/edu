@@ -5,7 +5,7 @@ import { FontTitleSpan, FundoPostIt } from "./style";
 const MiniPostIt = (props) => {
   return (
     <Link href={props.link}>
-  <FundoPostIt>
+  <FundoPostIt color={props.color}>
     <FontTitleSpan>{props.name}</FontTitleSpan>
     <FontTitleSpan>{props.abrevi}</FontTitleSpan>
   </FundoPostIt>

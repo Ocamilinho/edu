@@ -14,17 +14,28 @@ export const ContainerTemplate = styled.div`
     align-items: center ;
     justify-content:center;
     flex-direction:column;
-    padding:60px 40px 60px 40px;
+    margin-left: 40px;
+    padding: 30px;
+    gap:10px;
+`
+
+export const ContainerTemplateNoMargin = styled.div`
+    display:flex;
+    align-items: center ;
+    justify-content:center;
+    flex-direction:column;
+    padding: 10px;
     gap:10px;
 `
 
 export const ContainerTemplateContent = styled.div`
     display:flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content:center;
     flex-direction:column;
-    padding:70px 100px;
     gap:20px;
+    margin-left: 40px;
+    padding: 30px;
 `
 
 export const TitleTemplate = styled.h1`
@@ -45,5 +56,9 @@ export const ContainerSideTemplate = styled.div`
     width: 80vw;
     padding: 0px;
     gap: 30px;
+
+    @media (max-width:600px){
+        flex-wrap: wrap;
+    }
     
 `

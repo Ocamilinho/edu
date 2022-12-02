@@ -8,9 +8,8 @@ export const FundoPostIt = styled.div`
     height: 50px;
     padding: 20px;
     font-family: 'Space Grotesk';
-    border-radius: 5px;
     transition: .6s;
-    background-color: var(--fundocard);
+    background-color: ${(props) => `${props.color}`};
     &:hover,
   &:focus{
     translate: +150px;

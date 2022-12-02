@@ -30,15 +30,15 @@ export default function Home() {
       </ContainerTemplate>
       <ContainerTemplate>
         <ContainerSideTemplate>
-          <Card title="1- Exemplo">
+          <Card title="1- Exemplo" color="var(--vermelho)">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
             tempora unde.
           </Card>
-          <Card title="2-Exemplo">
+          <Card title="2-Exemplo" color="var(--vermelho)">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
             tempora unde.
           </Card>
-          <Card title="3- Exemplo">
+          <Card title="3- Exemplo" color="var(--vermelho)">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
             tempora unde.
           </Card>
